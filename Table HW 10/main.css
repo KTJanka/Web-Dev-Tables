@@ -1,0 +1,103 @@
+* {
+    margin: 0; 
+}
+
+html {
+    height: 100%;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div {
+    margin: 5% 25% 10% 25%;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 2em;
+    background-color: cadetblue;
+    border: 1px solid #000; 
+}
+
+#header {
+    font-weight: bold;
+    background-color: darkgrey;
+}
+
+td, th  {
+    border: 2px solid #000;
+}
+
+th {
+    padding: 1%;
+    width: 25%;
+    text-align: left;
+}
+
+td {
+    padding: 0.5%;
+    background: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  div a:link {
+    text-decoration: none;
+  }
+  
+  div a:visited {
+    text-decoration: none;
+    color: transparent;
+  }
+  
+  div a:hover {
+    text-decoration: none;
+  }
+  
+  div a:active {
+    text-decoration: none;
+  }
+
+  header {
+      text-align: center;
+      margin-top: 5%;
+  }
+
+  h1 {
+      font-size: 3em;
+  }
+
+  footer {
+      position: absolute;
+      bottom: 0;
+      padding: 2%;
+  }
